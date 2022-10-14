@@ -1,0 +1,6 @@
+framework module Pods_Advocacy_Amplified {
+  umbrella header "Pods-Advocacy Amplified-umbrella.h"
+
+  export *
+  module * { export * }
+}
