@@ -7,6 +7,8 @@
 
 import UIKit
 import WebKit
+import AppCenter
+import AppCenterCrashes
 
 
 class ViewController: UIViewController {
@@ -15,6 +17,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Crashes.generateTestCrash()
         
         webView.load(URLRequest(url: URL(string: "https://bulletinglobal.com/demo/political-app/dark-red/")!))
         
