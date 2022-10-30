@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         
         Crashes.generateTestCrash()
         
+        
         webView.load(URLRequest(url: URL(string: "https://bulletinglobal.com/demo/political-app/dark-red/")!))
         
 //        self.navigationController?.isNavigationBarHidden = true
